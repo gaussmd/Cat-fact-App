@@ -18,36 +18,37 @@ button:hover
 {
   background-color: rgba(212, 255, 0, 0.63);
   color: rgba(221, 36, 36, 0.635);
-  transition: 500ms all ease-out;
+  transition: 100ms all ease-out;
   border-radius: 20px;
   font-size: 52px;
   box-shadow: 0 0 10px 0 rgb(0, 0, 0.3);
+  border-radius: 2px solid lightgreen;
 }
 .App h1{
   background-color: aliceblue;
-  box-shadow: 0 0 10px 1px rgb(227, 150, 213);
+  box-shadow: 0 0 10px 1px rgb(164, 224, 123);
   border-radius: 12px;
   font-size: 22px;
-
 }
 h1:hover
 /* h1:active */
 {
-  background-color: rgb(116, 116, 101);
-  color: rgb(255, 248, 248);
-  transition: 800ms all ease-out;
-  font-size: 25px;
+  background-color: rgb(155, 231, 235);
+  color: rgb(0, 0, 0);
+  transition: 100ms all ease-out;
+  font-size: 23px;
 }
 .App img {
   height: 400px;
   width: 500px;
-  box-shadow: 0 0 10px 0 rgb(0, 0,0.3);
+  box-shadow: 0 0 20px 2px rgb(0, 0,0.3);
   border-radius: 22px;
+  margin: 30px 0;
 }
 .App img:hover {
-  transition: 1000ms all ease-out;
+  transition: 50ms all ease-out;
   height: 405px;
   width: 505px;
   border-radius: 20px;
-  border: 3px solid lightseagreen;
+  /* border: 10px solid lightseagreen; */
 }
